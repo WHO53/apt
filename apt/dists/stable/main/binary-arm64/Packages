@@ -1,0 +1,504 @@
+Package: adaptation-lenovo-akita
+Version: 0.0.0+git20241008144607.f2ca75d.main
+Architecture: all
+Maintainer: Deepak <notwho53@gmail.com>
+Installed-Size: 7
+Depends: linux-bootimage-lenovo-akita, adaptation-hybris-api28-phone, adaptation-lenovo-akita-configs
+Filename: packages/adaptation-lenovo-akita_0.0.0+git20241008144607.f2ca75d.main_all.deb
+Size: 1568
+MD5sum: e0273f1fde917890d6e7cd9c1dd29208
+SHA1: c60e409a853dcecee90c507136386f23bafe4672
+SHA256: 678d692a0c8bade02c0eb97904091ad4ee72bf42d04fb44c65d3198d2eef4a6c
+Section: metapackages
+Priority: optional
+Description: Lenovo Tab M8 Adaptation Package
+
+Package: adaptation-lenovo-akita-configs
+Source: adaptation-lenovo-akita
+Version: 0.0.0+git20241008144607.f2ca75d.main
+Architecture: all
+Maintainer: Deepak <notwho53@gmail.com>
+Installed-Size: 149
+Depends: dconf-gsettings-backend | gsettings-backend, adaptation-lenovo-akita (= 0.0.0+git20241008144607.f2ca75d.main)
+Filename: packages/adaptation-lenovo-akita-configs_0.0.0+git20241008144607.f2ca75d.main_all.deb
+Size: 11196
+MD5sum: 5984dd2d75ccc075ea81474c63093d2e
+SHA1: 27e8dc2fcd81e6f306bd3631173b3e55b5dbc61f
+SHA256: 19a51ccb6027f3eb56e2d1b4612a48a109daa2c7e0e3de84c46c0d817a286d17
+Section: metapackages
+Priority: optional
+Description: Lenovo Tab M8 Adaptation Package Configs
+
+Package: gnome-settings-daemon
+Version: 46.0-1+droidian0+git20240911073551.86365f0.droidian
+Architecture: arm64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 2222
+Depends: default-logind | logind, gnome-settings-daemon-common (= 46.0-1+droidian0+git20240911073551.86365f0.droidian), gsettings-desktop-schemas (>= 46~beta), libspa-0.2-bluetooth | pulseaudio-module-bluetooth, pipewire-audio | pulseaudio, libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.16), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libgbinder, libgck-2-2 (>= 3.2.2), libgcr-4-4 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgeoclue-2-0 (>= 2.4.0), libgeocode-glib-2-0 (>= 3.26.3), libglib2.0-0t64 (>= 2.80.0), libgnome-desktop-3-20t64 (>= 3.34.2), libgtk-3-0t64 (>= 3.21.5), libgudev-1.0-0 (>= 146), libgweather-4-0t64 (>= 4.1), libmm-glib0 (>= 1.6.8), libnm0 (>= 1.0.0), libnotify4 (>= 0.7.3), libp11-kit0 (>= 0.25.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.114), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsystemd0 (>= 213), libupower-glib3 (>= 0.99.12), libwacom9 (>= 2.0.0), libwayland-client0 (>= 1.0.2), libx11-6, libxext6, libxfixes3 (>= 1:6.0.0), libxi6 (>= 2:1.2.99.4)
+Recommends: iio-sensor-proxy, pipewire-audio, pkexec, x11-xserver-utils
+Suggests: usbguard
+Breaks: gnome-control-center (<< 1:41.4-2~), libgtk-4-0 (<< 3.99.1~), libmutter-6-0 (<< 3.37), libmutter-7-0 (<< 3.39)
+Filename: packages/gnome-settings-daemon_46.0-1+droidian0+git20240911073551.86365f0.droidian_arm64.deb
+Size: 392520
+MD5sum: 5c8328350e492f0c51a43186542586a9
+SHA1: e222a103f401c915281447de17b799ec33e9263b
+SHA256: 389b69bb0c66c86a971c423a8c22e3eb58adf85585c8bd60f7d39eec365bff0e
+Section: gnome
+Priority: optional
+Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+Description: daemon handling the GNOME session settings
+ This package contains the daemon which is responsible for setting the
+ various parameters of a GNOME session and the applications that run
+ under it. It handles the following kinds of settings:
+ .
+  * Keyboard: layout, accessibility options, shortcuts, media keys
+  * Clipboard management
+  * Theming: background, icons, GTK+ applications
+  * Cleanup of unused files
+  * Mouse: cursors, speed, accessibility options
+  * Startup of other daemons: screensaver, sound daemon
+ .
+ It also sets various application settings through X resources and
+ freedesktop.org XSETTINGS.
+
+Package: gnome-settings-daemon-common
+Source: gnome-settings-daemon
+Version: 46.0-1+droidian0+git20240911073551.86365f0.droidian
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 5128
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Replaces: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Provides: gnome-settings-daemon-schemas (= 46.0-1+droidian0+git20240911073551.86365f0.droidian)
+Filename: packages/gnome-settings-daemon-common_46.0-1+droidian0+git20240911073551.86365f0.droidian_all.deb
+Size: 711168
+MD5sum: 99298887e07fe027e30a71935f3cdf2f
+SHA1: 1fb2259ac79b1da6c450ebb7d80834cfa85797a7
+SHA256: 28243c9da3ea875e042762a933e7a25745dc37f40b3b4bc2d72ca7b7b01e4836
+Section: gnome
+Priority: optional
+Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+Description: daemon handling the GNOME session settings - common files
+ This package contains GSettings schemas and other architecture-independent
+ files for GNOME Settings Daemon. It is probably not interesting on its own for
+ end users, but packages may depend on this if they only need to read and write
+ settings & don't themselves care if the settings daemon is actually running or
+ not.
+
+Package: gnome-settings-daemon-dbgsym
+Source: gnome-settings-daemon
+Version: 46.0-1+droidian0+git20240911073551.86365f0.droidian
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1378
+Depends: gnome-settings-daemon (= 46.0-1+droidian0+git20240911073551.86365f0.droidian)
+Filename: packages/gnome-settings-daemon-dbgsym_46.0-1+droidian0+git20240911073551.86365f0.droidian_arm64.deb
+Size: 976972
+MD5sum: 5b51b8b8b8b313d987949610ed7abed9
+SHA1: 16f8355115c4b1d31441950201e1e9044f3790f9
+SHA256: d7a5fe9237d59fe1f2733bd07f8ee07f16d20130d99fdcb2961797bb6e358af5
+Section: debug
+Priority: optional
+Description: debug symbols for gnome-settings-daemon
+Build-Ids: 1093553c89d3a45299cb7c75e0e3c827f46c9a75 286284ef65e4041ae1f8ecc380187ad902b80946 2b760aa8f106238fa6ad2b3bb88f523d5c9806ea 33ff87457e028ce6d3fa6175e970628dbb39349a 3d2ce025aa516e690c3225fa8c7698f7e67f0d86 4b2ab59af63cf76d3f0098f90f9f25947c6a99b8 67ae8e78cada1e1b74558164fe6f561ee57de46f 6969eda926c27c7958fb592d58bb565a8c4b409d 6a283ef5a1b89b461b4b48b515010c1931058322 73b61fe9d63e03661cdab7f1567795703ec10470 77b5b7cece7f783996196ea84bd13fa2e247921c 8328baf17567e3e892ea1d5f654c947238f51a5b 8799db98e5ad0ad3c35899541ac2a6bb32648449 8d8bfe13722a4dc47d6d9570066b7abd1cec9b40 9adcea4504061fe27441c1ab83d5273a3a78d85f a28e01ec785891ebea42ad2a0bca170ecfa11327 adcb3e89715872f2b0a37d5cc3b60039b6bbcbc2 baa9114b0d19582cf71ebd6d46ef195b6bacc551 c47b0fcdb1ebaf9e00907c1c4cac2f12853d92ae d7e8425a0c111cf6ee7d927ec85953b955096cb9 f37ee76973aed150f0d806bb4465ad0e0ddc3cbf
+
+Package: gnome-settings-daemon-dev
+Source: gnome-settings-daemon
+Version: 46.0-1+droidian0+git20240911073551.86365f0.droidian
+Architecture: arm64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 115
+Depends: libglib2.0-dev
+Filename: packages/gnome-settings-daemon-dev_46.0-1+droidian0+git20240911073551.86365f0.droidian_arm64.deb
+Size: 100956
+MD5sum: d4feaf0f63f904231e1d1fc6ed6843ed
+SHA1: fe1ae785091292540ea8138d567da1707e809cfb
+SHA256: 7de177b65f76437f3b21b08aee671a84a11cb12d1c4c9367b077aba020189af4
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+Description: Headers for building applications communicating with gnome-settings-daemon
+ This package contains header files required to build applications that
+ communicate with the GNOME settings daemon over D-Bus.
+
+Package: libwf-config-dev
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 624
+Depends: libevdev-dev, libglm-dev, libwf-config1 (= 0.0.0-1~git20241010200107.0bb5189.android), libxml2-dev
+Filename: packages/libwf-config-dev_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 157476
+MD5sum: 0c970682c3e7124465a4598339451857
+SHA1: fd84b3f3693e401fa5a31e808d6cca8f9aed2cbb
+SHA256: 2409c0fa76cf885060d75d803d9559ec4feba2d702a8e6ea7aea5c3df0055461
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayfire.org/
+Description: Wayfire-specific library for managing config files (dev)
+ Wf-config is a library for managing configuration files, written for
+ wayfire 3D wayland compositor.
+ .
+ This package provides development files.
+
+Package: libwf-config1
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 513
+Depends: libc6 (>= 2.38), libevdev2 (>= 0.9.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4)
+Filename: packages/libwf-config1_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 172012
+MD5sum: e79f5fa6a91b1e0e4c8563c581e30c6c
+SHA1: 8a0e192443afdf11374675c84eab8e54af0a7705
+SHA256: 3ea7656296af728112b9ec2e1c72cfe85e0a2241734f29b88781f65e1e54ec87
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayfire.org/
+Description: Wayfire-specific library for managing config files
+ Wf-config is a library for managing configuration files, written for
+ wayfire 3D wayland compositor.
+ .
+ This package provides shared library files.
+
+Package: libwf-config1-dbgsym
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 2356
+Depends: libwf-config1 (= 0.0.0-1~git20241010200107.0bb5189.android)
+Filename: packages/libwf-config1-dbgsym_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 2293240
+MD5sum: 4fd5df7c97767c86a70f38fe6b9f5f96
+SHA1: 1b9150400bba0aa3c86e25118fcc6db0e68ca72c
+SHA256: 49b5053f9ab63469318e7f8d76516ccb69bd7e4a91b08373133e0838f63162b5
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libwf-config1
+Build-Ids: 23d5502c263693a6ebfb1077b8e0222f763282b4
+
+Package: libwf-touch-dev
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 134
+Filename: packages/libwf-touch-dev_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 67432
+MD5sum: bdfa04e1cf72081fd4c5b591af6e3792
+SHA1: b3d358d07fd42fcc456601a1086bfee0418a9718
+SHA256: 5bb4297b1a4c420296f3ec9cd776650495e55b1ab4d8d692d5f68c83d7d6a73b
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayfire.org/
+Description: 3D Wayland compositor (wf-touch library dev files)
+ Wayfire is a 3D Wayland compositor, inspired by Compiz and based on
+ wlroots. It aims to create a customizable, extendable and lightweight
+ environment without sacrificing its appearance.
+ .
+ This package contains the development files for the embedded
+ wf-touch library.
+
+Package: libwf-utils-dev
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 114
+Depends: libwf-utils0t64 (= 0.0.0-1~git20241010200107.0bb5189.android)
+Filename: packages/libwf-utils-dev_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 61420
+MD5sum: b70c61dfc336681de6ccb9afb8212b17
+SHA1: eb808582e64a6d50891e0e044d1775ddef119a86
+SHA256: e7ca8f9d85f90ca3db2524aca54ca6ffa1121ed76afbd8da53e69f4b311aec46
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayfire.org/
+Description: 3D Wayland compositor (wf-utils library dev files)
+ Wayfire is a 3D Wayland compositor, inspired by Compiz and based on
+ wlroots. It aims to create a customizable, extendable and lightweight
+ environment without sacrificing its appearance.
+ .
+ This package contains the development files for the embedded
+ wf-utils library.
+
+Package: libwf-utils0t64
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 260
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Breaks: libwf-utils0 (<< 0.0.0-1~git20241010200107.0bb5189.android)
+Replaces: libwf-utils0
+Provides: libwf-utils0 (= 0.0.0-1~git20241010200107.0bb5189.android)
+Filename: packages/libwf-utils0t64_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 91712
+MD5sum: ee8f44c715c79c57c5b3174986654dad
+SHA1: 58deecb5dbd15d105297918e4582cae6371cac1d
+SHA256: 1625f57ad12d3c38976de83446589e99006f20e2b7e9f50db356041d3fd9dc20
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayfire.org/
+Description: 3D Wayland compositor (wf-utils library)
+ Wayfire is a 3D Wayland compositor, inspired by Compiz and based on
+ wlroots. It aims to create a customizable, extendable and lightweight
+ environment without sacrificing its appearance.
+ .
+ This package contains the shared library files for the embedded
+ wf-utils library.
+
+Package: libwf-utils0t64-dbgsym
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 808
+Depends: libwf-utils0t64 (= 0.0.0-1~git20241010200107.0bb5189.android)
+Filename: packages/libwf-utils0t64-dbgsym_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 779576
+MD5sum: ec85688fc944befa65214eb25bdee352
+SHA1: 7c9433a5fe6fa32206fe514705efdeb471f8b746
+SHA256: 99fdd017b59a356422f55a5a61fc7699c975c391eda20af698f56e673b59c167
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libwf-utils0t64
+Build-Ids: 3ce58af4e96ffbaf9c88c83c3ddcc164ab72d409
+
+Package: linux-bootimage-4.9-117-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241009193333.19a01b6.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 52365
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.9-117-lenovo-akita (= 0.0.0+git20241009193333.19a01b6.droidian)
+Filename: packages/linux-bootimage-4.9-117-lenovo-akita_0.0.0+git20241009193333.19a01b6.droidian_arm64.deb
+Size: 52435536
+MD5sum: 866c290fd9397b17d911bd59d67ad1d9
+SHA1: eb1d480e02066b37eb5ebd263006ea469933ae4e
+SHA256: a459e10f657b7a102de51e9cee1c09825f9b1c8c864767f7eafdd93109818de2
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Android Boot Image
+ This package contains the Linux kernel for the Lenovo Tab M8 HD device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
+Package: linux-bootimage-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241009193333.19a01b6.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 7
+Depends: linux-bootimage-4.9-117-lenovo-akita (= 0.0.0+git20241009193333.19a01b6.droidian)
+Filename: packages/linux-bootimage-lenovo-akita_0.0.0+git20241009193333.19a01b6.droidian_arm64.deb
+Size: 1232
+MD5sum: 1b5488c38c5d424d57e3d9a4529989dd
+SHA1: 13baa887b9845f40c58faca4e7c299679229ebb5
+SHA256: cce99d5fafa6bfa66e25546e3c535ca10664b5c0c31eeb961d13b0e541c702cb
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Lenovo Tab M8 HD.
+
+Package: linux-headers-4.9-117-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241009193333.19a01b6.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 51750
+Depends: linux-image-4.9-117-lenovo-akita (= 0.0.0+git20241009193333.19a01b6.droidian)
+Filename: packages/linux-headers-4.9-117-lenovo-akita_0.0.0+git20241009193333.19a01b6.droidian_arm64.deb
+Size: 8154940
+MD5sum: bf37bebfad63c1da89c4748f1f1d7868
+SHA1: 70c48d7fbf8f2edee0c290d3d2f7a5dc32282bef
+SHA256: 58dd88c6ff42b9d40413e1d425a9c5eb4e2eedd924f8c61e3d8c5742babff4e0
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Headers
+ This package contains the Linux kernel headers for the Lenovo Tab M8 HD device.
+
+Package: linux-headers-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241009193333.19a01b6.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 7
+Depends: linux-headers-4.9-117-lenovo-akita (= 0.0.0+git20241009193333.19a01b6.droidian)
+Filename: packages/linux-headers-lenovo-akita_0.0.0+git20241009193333.19a01b6.droidian_arm64.deb
+Size: 1220
+MD5sum: 4571865c3a4ec065b5a44b5a5092bb99
+SHA1: 140a2a4efd124f8131ea1162a533947086769d77
+SHA256: e48cde2aac1990d8d26e7e2ad46ad8fa5bd1b8dbb79b1944f765b2eef9139719
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Headers (latest)
+ This package depends to the latest kernel headers available for the Lenovo Tab M8 HD.
+
+Package: linux-image-4.9-117-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241009193333.19a01b6.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 15433
+Filename: packages/linux-image-4.9-117-lenovo-akita_0.0.0+git20241009193333.19a01b6.droidian_arm64.deb
+Size: 10504216
+MD5sum: e5dfe6b4088ecfece572518c118be999
+SHA1: 343d27a91f25507c2c6eb295290f6153ab7e8c6f
+SHA256: 54ae8b47d70f971746671083e1883d6102e57631a3d3dfc6344abc04a0c60e86
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD
+ This package contains the Linux kernel for the Lenovo Tab M8 HD device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.9-117-lenovo-akita package for a bootimage suitable
+ for Android boot loaders.
+
+Package: linux-image-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241009193333.19a01b6.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 7
+Depends: linux-image-4.9-117-lenovo-akita (= 0.0.0+git20241009193333.19a01b6.droidian)
+Filename: packages/linux-image-lenovo-akita_0.0.0+git20241009193333.19a01b6.droidian_arm64.deb
+Size: 1216
+MD5sum: ffbe1648b29b9894724a524ec960d9b6
+SHA1: f0fdf172cfbdbf3c83f7f2dac229408e1a38e0b4
+SHA256: c6fab58afbc04c62193ee83f59399bb54bcf4100cd1a64d2c8ad2f6790d70638
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD (latest)
+ This package depends to the latest kernel image available for the Lenovo Tab M8 HD.
+
+Package: neovim
+Version: 0.10.0~ubuntu1+git202408201014-33464189bc-971e32c878-544aec1cd7~ubuntu24.04.1
+Architecture: arm64
+Maintainer: Florian Walch <florian+launchpad@fwalch.com>
+Installed-Size: 8656
+Depends: neovim-runtime (= 0.10.0~ubuntu1+git202408201014-33464189bc-971e32c878-544aec1cd7~ubuntu24.04.1), libc6 (>= 2.38), libluajit-5.1-2 (>= 2.0.4+dfsg) | libluajit2-5.1-2 (>= 2.1~)
+Breaks: neovim-runtime (<< 0.8.0~~)
+Replaces: neovim-runtime (<< 0.8.0~~)
+Provides: editor, vim
+Filename: packages/neovim_0.10.0~ubuntu1+git202408201014-33464189bc-971e32c878-544aec1cd7~ubuntu24.04.1_arm64.deb
+Size: 2294362
+MD5sum: 19e11fa81c1e5d6601cc3257124d0be5
+SHA1: bfc74a24ffbd5ba7707dc1234abe6995160fb907
+SHA256: 0cd1ee92216f1256fa79bbc4577fe9d9c9f0f60acc3290962782b59650528d2d
+Section: editors
+Priority: optional
+Homepage: https://neovim.io
+Description: Fork of Vim aiming to improve user experience, plugins, and GUIs.
+ This package is the nightly build from the neovim unstable PPA.
+
+Package: neovim-runtime
+Source: neovim
+Version: 0.10.0~ubuntu1+git202408201014-33464189bc-971e32c878-544aec1cd7~ubuntu24.04.1
+Architecture: all
+Maintainer: Florian Walch <florian+launchpad@fwalch.com>
+Installed-Size: 24622
+Filename: packages/neovim-runtime_0.10.0~ubuntu1+git202408201014-33464189bc-971e32c878-544aec1cd7~ubuntu24.04.1_all.deb
+Size: 4797080
+MD5sum: dc933b5939ad76c16452fa53f49b48a8
+SHA1: 162da21924f6683a5eb3226609592fcdf3aa4d06
+SHA256: 9b398c8dbc098dcfd92c8188758595ac25a057439483e252bc948a4e32f9bae5
+Section: editors
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://neovim.io
+Description: Fork of Vim aiming to improve user experience, plugins, and GUIs. (runtime files)
+ This package is the nightly build from the neovim unstable PPA.
+
+Package: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 11457
+Depends: libglx-vendor, libc6 (>= 2.38), libcairo2 (>= 1.2.4), libegl1, libevdev2 (>= 0.9.1), libgcc-s1 (>= 3.0), libgles2, libglib2.0-0t64 (>= 2.12.0), libglibmm-2.4-1t64 (>= 2.66.7), libgomp1 (>= 4.9), libinput10 (>= 1.1.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.25.2), libpng16-16t64 (>= 1.6.2), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 14), libwayland-client0 (>= 1.0.2), libwayland-server0 (>= 1.14.91), libwf-config1 (>= 0.0.0), libwf-utils0t64 (>= 0.0.0), libwlroots12t64 (>= 0.17.0), libxcb1, libxkbcommon0 (>= 0.5.0)
+Filename: packages/wayfire_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 1808136
+MD5sum: b5b974120b868c25dd2ae930a056ef38
+SHA1: 4a4770e551a046c8d583e6fbb8ddd96547b18095
+SHA256: 0729829cf038979d536f0252dc912ec83678347792f593f5587c029fdbccc12c
+Section: x11
+Priority: optional
+Homepage: https://wayfire.org/
+Description: 3D Wayland compositor
+ Wayfire is a 3D Wayland compositor, inspired by Compiz and based on
+ wlroots. It aims to create a customizable, extendable and lightweight
+ environment without sacrificing its appearance.
+ .
+ This package contains the core files.
+
+Package: wayfire-dbgsym
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 39634
+Depends: wayfire (= 0.0.0-1~git20241010200107.0bb5189.android)
+Filename: packages/wayfire-dbgsym_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 37166892
+MD5sum: 40c553ccd5df7944efc92c7f9cacfc3d
+SHA1: 8f33bd653ac8ff1ceff21c0fd31281d3ff455064
+SHA256: 61bd4d004b70c918518afc2cb9e1e01b47af37da3ec34d6e91b8553082970571
+Section: debug
+Priority: optional
+Description: debug symbols for wayfire
+Build-Ids: 0b0ae53d995adc83f18d80466787c0059258f683 0d04203e93984ca2fe64d4ad9671722ee010aad5 21187825cbd6ce07485f7943467ae16efe5efc32 221eaaa7e6c3efa197958fd42427bb8c574cc4ab 231a051c0d2e1d0a7815d0318548d43e45cdbc07 248c5cb925ae96736c87f461a1216fafe347e3a9 254ff116005558f27029247ccc4d855efc0af1fe 2bfb53b70edb0d3510a2f080a66b2ffc3dd6faef 2fd5cdf598d720d6e87dfbfc6cb3515fa7e34cc3 327b35c3637167d6ab4de7b5095358a084d45e4c 368a240501221fcbe78f3fcc3c4d79df3013c147 3a9407a655e2f76638f5f2304eaacba99223a36b 3f658dbf82636ca8d90e7268aa1313748bccdaa3 461683d23206aff2bf38236d665a4ddb7d0d644a 4a9dea32c085beac52593d6be8fcebea71cde7eb 4fa1bf728a68c6ede9304f9702d70ce5a5bd0230 50a1070d99d376cd2a4057be01346269b0aeaf93 5569ba7fb7c83dba7d33c132f953af1252d04a2d 562cec759a2abe65b674bb695fe00865451942a8 56663e4218112f8c00f6189049f6f944a12320f1 567546ff3ed86890db2df647be66c5b2a38ce492 5c4871cec08b3f903817daac0e8bae94e102b218 6416bb3dc871982f74789d1096f8385277c6e79f 6860d871b722d2a03609bb054a6f4b74bc626f5f 69611bfd167d3933bd57c325befcfabb1ab785b9 796d15dc5faa9b1aa79f69ba886daff9d143fc53 8032a9c734e2d0f39b444c3722c6076a470521db 8ad43928ca3df7367449c985c845485efd8e08c9 9c431b51b3e50307334521d079a829aecf3c4612 9eb3cb58cfc8a7fd90763254c211b760bda84827 a1465340e89d1ec9eb38653dafbd9f37b1cb632c b1605aedc4de29a0da7fe0f5f31dedc2ca67271b b6c68c5af6544e009d6511912ce1c5b479dd6c31 b83e4dafdb7fdb0b30c0472e8544134911204f0b bb0c40dc98c0cd5bafdab44267d37af8712cfd5e bd0748ca422d7148f0c06451e1f14ed12ffcd19c c054297716634e322d85ae474002c4b99d7b6fee c667ef0939fe343dff6f632789067528ff1d15f6 c6ffc832b43c0c2e99c5fb0c1df6ff401179d82c d51acda12b2054c1503aea60173a6394c36f07bf d95723c525c3ba456411ed0978feedc7b002678c d9e19ad0ce281ccfaee6a27bda662d9cbd1c9c17 dc8a08d2be0e8e66e2199666f2537155c984e398 e420578f8e23e2f33bb4cae6a75848d96cc4ef30 e5fc35ec9a9f72ff8345fc887868eb14c6bb6b54 eca41718bd8953b3d31f4accb4bafe510f3d8352 ecc998434e01135ac553567ec623a9be7ce76981
+
+Package: wayfire-dev
+Source: wayfire
+Version: 0.0.0-1~git20241010200107.0bb5189.android
+Architecture: arm64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 495
+Depends: libcairo-dev, libpango1.0-dev, libpixman-1-dev, libwayland-dev, libwf-config-dev, libwf-utils-dev, libwlroots-dev
+Filename: packages/wayfire-dev_0.0.0-1~git20241010200107.0bb5189.android_arm64.deb
+Size: 137108
+MD5sum: eea506b4813e6157fd7ca5c4b3317c26
+SHA1: aac2d8849aaeece79398cfc09f67a45d5483e710
+SHA256: 6e6e89556a608a02972c903c8abedf1445078d5c5693183abf4cafbf8035dce6
+Section: x11
+Priority: optional
+Homepage: https://wayfire.org/
+Description: 3D Wayland compositor (development files)
+ Wayfire is a 3D Wayland compositor, inspired by Compiz and based on
+ wlroots. It aims to create a customizable, extendable and lightweight
+ environment without sacrificing its appearance.
+ .
+ This package contains the development files.
+
+Package: wvkbd-phosh-osk
+Version: 1.0+git20240927143037.1011553.master
+Architecture: all
+Maintainer: Deepak Kumar <notwho53@gmail.com>
+Installed-Size: 1025
+Filename: packages/wvkbd-phosh-osk_1.0+git20240927143037.1011553.master_all.deb
+Size: 92608
+MD5sum: bb3374c693d9cbe892552473b37cb3ac
+SHA1: d894eeadfbfd59b5cdcbf75f6c8f519947293ec9
+SHA256: a2406c049ffd9693dfd29cde039e12b3637c485e1501870d38427938add57374
+Section: metapackages
+Priority: optional
+Description: wvkbd phosh osk
+

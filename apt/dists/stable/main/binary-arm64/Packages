@@ -1,0 +1,166 @@
+Package: adaptation-lenovo-akita
+Version: 0.0.0+git20241103200332.2eedcc4.main
+Architecture: all
+Maintainer: Deepak <notwho53@gmail.com>
+Installed-Size: 7
+Depends: linux-bootimage-lenovo-akita, adaptation-hybris-api28-phone, adaptation-lenovo-akita-configs
+Filename: packages/adaptation-lenovo-akita_0.0.0+git20241103200332.2eedcc4.main_all.deb
+Size: 1564
+MD5sum: ec017e1b734b4901aee86ee1a05d766d
+SHA1: a3d7ad119665b8de62f6324d409c26e55137b45c
+SHA256: 661c82d45ffdac4d4df3702027c9de7acc1b5908946ec047d7ca22040063ddf0
+Section: metapackages
+Priority: optional
+Description: Lenovo Tab M8 Adaptation Package
+
+Package: adaptation-lenovo-akita-configs
+Source: adaptation-lenovo-akita
+Version: 0.0.0+git20241103200332.2eedcc4.main
+Architecture: all
+Maintainer: Deepak <notwho53@gmail.com>
+Installed-Size: 154
+Depends: dconf-gsettings-backend | gsettings-backend, adaptation-lenovo-akita (= 0.0.0+git20241103200332.2eedcc4.main)
+Filename: packages/adaptation-lenovo-akita-configs_0.0.0+git20241103200332.2eedcc4.main_all.deb
+Size: 11564
+MD5sum: c3ba941d8d6518ab138d01b9c0f206cb
+SHA1: c453c99d716195a9963e4c828ddb78079c2b232f
+SHA256: fa4eafa89d3bb265f4d0c2f2622f8cda831cba94d39b5a8351e3de96370bd972
+Section: metapackages
+Priority: optional
+Description: Lenovo Tab M8 Adaptation Package Configs
+
+Package: linux-bootimage-4.9-117-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241207133757.8f810ee.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 52415
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.9-117-lenovo-akita (= 0.0.0+git20241207133757.8f810ee.droidian)
+Filename: packages/linux-bootimage-4.9-117-lenovo-akita_0.0.0+git20241207133757.8f810ee.droidian_arm64.deb
+Size: 52476104
+MD5sum: 58c3607e91b0c9271819d1034c04c37a
+SHA1: 2432c2050daf58faf1d7dd4a1b753b936c3ddf35
+SHA256: c7254a3bdb7f70b8216fc9a0379593b77fad7681508be56081858de613fa695a
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Android Boot Image
+ This package contains the Linux kernel for the Lenovo Tab M8 HD device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+X-Droidian-Vcs-Revision: 8f810ee83fb4c1513f63a57abf6b90776809d23d
+X-Droidian-Vcs-Url: https://github.com/WHO53/kernel-lenovo-akita
+
+Package: linux-bootimage-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241207133757.8f810ee.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 7
+Depends: linux-bootimage-4.9-117-lenovo-akita (= 0.0.0+git20241207133757.8f810ee.droidian)
+Filename: packages/linux-bootimage-lenovo-akita_0.0.0+git20241207133757.8f810ee.droidian_arm64.deb
+Size: 1316
+MD5sum: b53309ca3539abc11f2af3a256315edb
+SHA1: 47c966f8f2fd1aea4d84047a87403bf062144b27
+SHA256: eb758d2db85fc4b8094e25254c4ed51bb12da5dbc5abd01c1f342f4b3635976a
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Lenovo Tab M8 HD.
+X-Droidian-Vcs-Revision: 8f810ee83fb4c1513f63a57abf6b90776809d23d
+X-Droidian-Vcs-Url: https://github.com/WHO53/kernel-lenovo-akita
+
+Package: linux-headers-4.9-117-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241207133757.8f810ee.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 51758
+Depends: linux-image-4.9-117-lenovo-akita (= 0.0.0+git20241207133757.8f810ee.droidian)
+Filename: packages/linux-headers-4.9-117-lenovo-akita_0.0.0+git20241207133757.8f810ee.droidian_arm64.deb
+Size: 8155156
+MD5sum: 7b533929aa1dde45a94e4cdafed5bbe5
+SHA1: cac76ae058673702d4cff700b81c509e8c86a4b5
+SHA256: c53ec88598654b88bb51b7d5fc3001892d236bfc704287bc5ef9852e32ebb67b
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Headers
+ This package contains the Linux kernel headers for the Lenovo Tab M8 HD device.
+X-Droidian-Vcs-Revision: 8f810ee83fb4c1513f63a57abf6b90776809d23d
+X-Droidian-Vcs-Url: https://github.com/WHO53/kernel-lenovo-akita
+
+Package: linux-headers-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241207133757.8f810ee.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 7
+Depends: linux-headers-4.9-117-lenovo-akita (= 0.0.0+git20241207133757.8f810ee.droidian)
+Filename: packages/linux-headers-lenovo-akita_0.0.0+git20241207133757.8f810ee.droidian_arm64.deb
+Size: 1308
+MD5sum: 535e17e72057f099b83468be1844b262
+SHA1: cb94691f17ed4d9670d6c9cd64d5b2fcf70addc5
+SHA256: d529fe8917cec76cf53a1c279354d2017ca6a74b7235da9cb6dce3a0b50ea912
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD - Headers (latest)
+ This package depends to the latest kernel headers available for the Lenovo Tab M8 HD.
+X-Droidian-Vcs-Revision: 8f810ee83fb4c1513f63a57abf6b90776809d23d
+X-Droidian-Vcs-Url: https://github.com/WHO53/kernel-lenovo-akita
+
+Package: linux-image-4.9-117-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241207133757.8f810ee.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 15464
+Filename: packages/linux-image-4.9-117-lenovo-akita_0.0.0+git20241207133757.8f810ee.droidian_arm64.deb
+Size: 10527056
+MD5sum: d1f72bd4c17125f88e91cc2bf9ad12b5
+SHA1: 75eeb8bff813f3065eb315a851e90d9ad1f2dd2f
+SHA256: 378de6f1cfb4f515635a995d14f58d8ea07563da0ec69d9ae4b7decee26da385
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD
+ This package contains the Linux kernel for the Lenovo Tab M8 HD device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.9-117-lenovo-akita package for a bootimage suitable
+ for Android boot loaders.
+X-Droidian-Vcs-Revision: 8f810ee83fb4c1513f63a57abf6b90776809d23d
+X-Droidian-Vcs-Url: https://github.com/WHO53/kernel-lenovo-akita
+
+Package: linux-image-lenovo-akita
+Source: linux-android-lenovo-akita
+Version: 0.0.0+git20241207133757.8f810ee.droidian
+Architecture: arm64
+Maintainer: Deeepkk <duxedcontact@gmail.com>
+Installed-Size: 7
+Depends: linux-image-4.9-117-lenovo-akita (= 0.0.0+git20241207133757.8f810ee.droidian)
+Filename: packages/linux-image-lenovo-akita_0.0.0+git20241207133757.8f810ee.droidian_arm64.deb
+Size: 1296
+MD5sum: b26ff8fa82c930c33cca59acb5edd476
+SHA1: e84b6b7d85db7027d2d70bea9eac18633bad64ce
+SHA256: f436f326a6777e764baaae3550b3f5a79125ea880720b0d0355fb04c69f57c2b
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Tab M8 HD (latest)
+ This package depends to the latest kernel image available for the Lenovo Tab M8 HD.
+X-Droidian-Vcs-Revision: 8f810ee83fb4c1513f63a57abf6b90776809d23d
+X-Droidian-Vcs-Url: https://github.com/WHO53/kernel-lenovo-akita
+
+Package: wvkbd-phosh-osk
+Version: 1.0+git20240927143037.1011553.master
+Architecture: all
+Maintainer: Deepak Kumar <notwho53@gmail.com>
+Installed-Size: 1025
+Filename: packages/wvkbd-phosh-osk_1.0+git20240927143037.1011553.master_all.deb
+Size: 92608
+MD5sum: bb3374c693d9cbe892552473b37cb3ac
+SHA1: d894eeadfbfd59b5cdcbf75f6c8f519947293ec9
+SHA256: a2406c049ffd9693dfd29cde039e12b3637c485e1501870d38427938add57374
+Section: metapackages
+Priority: optional
+Description: wvkbd phosh osk
+

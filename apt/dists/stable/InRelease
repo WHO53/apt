@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: https://WHO53.github.io/apt
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Mon, 09 Dec 2024 12:19:10 +0000
+MD5Sum:
+ 8ca79788c36f3962a59e643317e7bd74              199 Release
+ e3ff47f5b0841421722c817b4f5b1914             7293 main/binary-arm64/Packages
+ 516496f73ebb01919188f6152982bb99             1836 main/binary-arm64/Packages.gz
+SHA1:
+ d76569f79da6d1ed99434243f4c9c2b30a0c90fb              199 Release
+ 4045af3e6d90a7f84f80e58076a4d1d15d94bcaa             7293 main/binary-arm64/Packages
+ 10522e2d0033e8ce2c58c386bb7e002cc28393a9             1836 main/binary-arm64/Packages.gz
+SHA256:
+ 1822d4010d8d06a2a389af266b80de21f995b7792e9e8d042a0bdfa886004de6              199 Release
+ b940b4dcbddac7b11ff99165401d26611fc899f84c7ae6fb18ebb98ecfc7f986             7293 main/binary-arm64/Packages
+ 4da03e42dde349d3ac4370a46267e43bccfb25b28493ba69e47c6e7d4fa79696             1836 main/binary-arm64/Packages.gz
+SHA512:
+ 0b505bf4abeb2046ddab5d376f1477a505dbf94f6212e36dc3f8a74928364c7611b8f9ee844182c087b9bd027609a155ca39029d4e1f514f2ed1d14e389b07d3              199 Release
+ 380e7930b4143ec6007c8aecbba14785a11b5d9d725c0cabe423b99fc9990ef0e1941a0775b2e74ff3071d5705ded64aa5d8cf8d99ea49e19c856aa297d5c161             7293 main/binary-arm64/Packages
+ b0ec64b22c8bee031c144774dd389c7b57a4af0a7201fcc41b60dd4a10ba0f5cc56c150703df195fef96fcead687b3b5ffa7a5ec11e55cf9663b1adeb0c9d36c             1836 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE6PLye2mXdWqdN4DeYpBzGlt3PhYFAmdW4D4ACgkQYpBzGlt3
+PhYaoQwAoYPqizubxwolDKB/0ZWV4M7M+JaV/V1K895DSA9zyVGnJDZtAl56dbos
+dwRIiRG5E7mtnSCaY/YL4bVL23HgXUQeac0bIwtO/MfqNAwZQJpsct1zv3puMYY+
+/gAfi4K2DpWYtQ+zv+9rsHznbkFjCb9n4e0+IES60DEZTjPf3WZtnh735cIgjmKv
+c/0lFgFM6uzBmzuj+Jg5/aV/qCVjpeb4I/jvmBBM23f+6fPrzS7+Hs90fMjtval6
+1bXKb3qjw7LysVodnP+WsAjl3bCia1YxjqC6drK2lGjiWYdubPSDpcEqrCMcZC7A
+8fDuD7arznSRd1WS3kYPjpvlOhlusMH+/vRuK9UCRQlvR9pCFpsVwHkzQxVue10n
+KeCL2wl5F7ftMXpxrYTzih6OKoeU7Nil0f8WZSbwfYmb7vthogVmtwtjlqKabSQ+
+o5hMCr4I3SyXt9zh3kicTGsqF5CCmriekJ5VRn88A4gSc7RdQPM0aW6EpZ4wpA7D
+PzUqH51W
+=oJmG
+-----END PGP SIGNATURE-----

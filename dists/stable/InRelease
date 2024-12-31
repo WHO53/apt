@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: https://WHO53.github.io/apt
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Tue, 31 Dec 2024 16:21:22 +0000
+MD5Sum:
+ b9e9fbf4c2f8439d79a3e571053beaa1              199 Release
+ 42648a3e6548279658c536da2d376acd             7357 main/binary-arm64/Packages
+ 176b0afb88f983b76449fad8c4d214ae             1855 main/binary-arm64/Packages.gz
+SHA1:
+ acbd5210d3c3a52591a4f4f27fc27b39fb4859a5              199 Release
+ 0a6a32641d3836e7a4168c34689aae08399f2b3d             7357 main/binary-arm64/Packages
+ bc71de206c36eba6bd703b2d08ae68a8af0216e8             1855 main/binary-arm64/Packages.gz
+SHA256:
+ 2a540b84a2694c92972d9791a245c1caee8bd4b3720a88167701dc4341d105a3              199 Release
+ 26449bd4e19ac83df18ae54b8ce060caf243f7b69b75ab151088ed24e3df947f             7357 main/binary-arm64/Packages
+ c8b0b18d3ccfd722fe0c0485b0718dcecad4bf47fce11b81d671617a36c87464             1855 main/binary-arm64/Packages.gz
+SHA512:
+ 1a18b731f288aad552dc6d75e1f14c18dbe9d0b3c99060a63f366f155d91088c7c4b1219f9177674dbe596ba73cfeb8511ea9916d810d56a0f146140080911d2              199 Release
+ 22f8ccc8b9ce77ffd661b4dfbb8543e27da0b1697e3bcf9600356fc4df9d8d56280e511c7a61e4a95a71f2762b4138198cd93a0daed59af6f70fde3f6436f1ea             7357 main/binary-arm64/Packages
+ d54c397a5c00d47fca1b262fef42dc946ba9e1402706baaab6315d2a122667cc3cc6131ccf5e2b2889e23a144db9179dfd9e5ad9891bc7248593f4192a36ff87             1855 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE6PLye2mXdWqdN4DeYpBzGlt3PhYFAmd0GgIACgkQYpBzGlt3
+Phap1wwAikWe6HP3oQ3/89RUSMU6CgsptjLQteCWQ8hxr2jHw23z7TNZ+xfsGm4w
+Lf6+ViNI6AJY02ajxVCB6b4HKJYbgY7DjF5vArzSMYVch0rDov4/5FXeUhugs4dQ
+HzPXgX8OxWgRjpyXbexSyzvvEWcJUvUbvdqjflJJ2GWLUoP3bnQzGZdZJf++N6+2
+ldoFKdbnfUbOg1/WB/Lg3wpqKNzoCbzMy7+6odxZM0SfcB0UM7mYFeC1pPHz2ATm
+hSWoHuaFhpIMRZLi57JEeTZkLshs+LJnhPkqdKvNQBi2TLuRLwZIofd0jLpwS+co
+9ePlABk9K13EVDkDur+xV+uMSH0Ed0aqYm+k5/jHpRqe9ZjsMuS+ELJFVwaKr/gj
+wG8YgdMINA7AaH610EmkN5iroSePQsu28sExUlJJbT+wdCGTAPUZQii5SFVs3UE5
+wsdvx6pn4KAnbXMgF4u4Du4lwQTcklZlhyNZd1GpPnuyWiH49kyXHaYeDvRpNY7H
+Uja2hPPl
+=4Ksz
+-----END PGP SIGNATURE-----

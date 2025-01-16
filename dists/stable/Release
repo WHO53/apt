@@ -1,0 +1,25 @@
+Origin: https://WHO53.github.io/apt
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Thu, 16 Jan 2025 08:02:43 +0000
+MD5Sum:
+ 2976aac344cc465233da0df366847c07              199 Release
+ 77a06561bc3f96ec9bbc8981e31c27ed             7357 main/binary-arm64/Packages
+ df8df6bd30b255fe544e75340b0c3f2d             1863 main/binary-arm64/Packages.gz
+SHA1:
+ 0efbd8fa954f9e517b2c37c847e927d7f87d0b7b              199 Release
+ 6e5d025a885b7e5934e57ed5e060698ab3c4a201             7357 main/binary-arm64/Packages
+ 3d04ab2294288dbcdae92fdd2d714579e581adb4             1863 main/binary-arm64/Packages.gz
+SHA256:
+ 52a21d0f6ef46c748c44f7fd45f55e4b05c58e5f3958fccf3c13f40cd696dfe9              199 Release
+ 2a642fe8cd7df0ccc73b552a03866f9cc90a2841ca81c57432a43483fbe15c9f             7357 main/binary-arm64/Packages
+ 81c0052c257c4c31f6715803058194bd71b79a07e0031f7772c587d1bf50238d             1863 main/binary-arm64/Packages.gz
+SHA512:
+ 429055938acc3a546c46a3243e6ff753d25c6011b7768b2e3db5e4e78c54faf67b8007fba4cd6cd52bbfd8f53604c70758d3d5ff33b0ddd85a5d47a3ed274706              199 Release
+ 7906bd5d1566574d61e43907ed99764c283c17f448f808772a0e140cbebcd7cad4e226e7d4db647109242d072fde5258e03145b387150f410cdc5f65079bb4ba             7357 main/binary-arm64/Packages
+ 2c60821b626ed453872ee5fd630a8049e269221b52070049fff557b1f65c98f6abfe6e5a1dbd8642ab80d6445317e7b2fee0847a4f1b701132e4085be6bc4890             1863 main/binary-arm64/Packages.gz

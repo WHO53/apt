@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: https://WHO53.github.io/apt
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Sun, 19 Jan 2025 06:12:57 +0000
+MD5Sum:
+ 052201d552a9bffe2024a957be35d7a8              199 Release
+ f035ae0e403b2b2760c086469b0d2a60             7357 main/binary-arm64/Packages
+ 3d1f491dde2afd553a3c26e187fa6fe9             1860 main/binary-arm64/Packages.gz
+SHA1:
+ 0bf546c3bf9ff62697740b7c42e39a5f2b9ee0ac              199 Release
+ a9e2bdfac628adde1440267fb70be8059e3fd571             7357 main/binary-arm64/Packages
+ 225ce9387b92183a9ce1b6f0a0bd01a88575bfee             1860 main/binary-arm64/Packages.gz
+SHA256:
+ da8f453bf016aab138cf4c2841e46159201ae89cf0dbaa0d9ec6a56bd365dcaa              199 Release
+ b18c2c25bced10635dbdef67db8842674a45ce3a5df17f854836394ce0d5e2ee             7357 main/binary-arm64/Packages
+ abb48838ba0da36c65fa88725c97835e2ddc70411310355cf24c26165249c663             1860 main/binary-arm64/Packages.gz
+SHA512:
+ f35fa2978df426a2b7ef8c053fa9bcc80932e6efc641610237177c3405fbd412768d5eb4b3335bfedf011dcf602a14ba663cfaf1efdcadc60c1587f2407d153f              199 Release
+ c3cf0cb30a55e0ded23411f4f941f2d15b64f13a24fb8b1173b9d10716e38d67285a7d0ace573d2f996b9ebdb18b333561b03f066d6290a44893c06bb8e04f34             7357 main/binary-arm64/Packages
+ 6e2712660bb7d26c939c34b0d33d1051c852d097894d31a77bc2cbab20d8c9b337f30724208574b72a4e18ea23fdf83a08badcdd79ba5ca27120fc5b8016543d             1860 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE6PLye2mXdWqdN4DeYpBzGlt3PhYFAmeMl+kACgkQYpBzGlt3
+PhbEbQv9Ehrqz6WC5IVWluZAMm+QDBP0LTAY+LUS8fwCfEdci35BtIbzjlHQJb5+
+Ffxfdt6b/s3M31GKVh7b1CLzMLY5xN0zVasWApJSF0b5aRtALNbcoogvcnsszW/i
+dB/qtP6hGRlWfJr+/mEFhQffwVKIl/uxz2F1YpAyNQ1/miqe7ke8zt+uh1b53Uyh
+/1Z1QjL3qsW35TCsYg7pTzCLaPn2iAdTcHCl2WrIDcUOAvjvQKjbvDO1vJf48Xde
+HRZulOng7kTw1KexjG4TSQyh4AITYHYMnEvVC0Mmqug6rz8G4+BG4LF7PFv9JvUh
+0UTutw2O+v514VF2NDoEl0CU6dBA7XK76s3toXko4MmEpVJbzJY/9kGLbUKs13kW
+uLy290tJ+7on3m7L1E63VLox4s8X00XqLz+7tAHfi3KWCQVHqD7Z3e8uiMdKyF7x
+/n7evc+tQcnrc7RZfKwY9FaRmVSmRQd1OZ0Kk5wz8H6JnlcEHNydOmTet6qDL0vF
+RVhE1ACr
+=yEQ3
+-----END PGP SIGNATURE-----

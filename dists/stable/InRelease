@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: https://WHO53.github.io/apt
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Fri, 18 Apr 2025 11:11:02 +0000
+MD5Sum:
+ b5c1995c386d829f8d19229fea42183b              199 Release
+ 36bead3eda48381b3fb68a68c6d485ab             7531 main/binary-arm64/Packages
+ 327197c82dcae13ff30cfff4efd2d275             1868 main/binary-arm64/Packages.gz
+SHA1:
+ 96f6a4d71a79daf2445a27921007b1c13a23521d              199 Release
+ 462e1ebf2ede27d32b525ea1d39ed9b84a746e54             7531 main/binary-arm64/Packages
+ 2cd72ef39fd3d39a347d8000aa7571c4ad473cb4             1868 main/binary-arm64/Packages.gz
+SHA256:
+ 5291b742e3709c8862ce645d118285f1afe58146981657f416007cd8d7c998d8              199 Release
+ a26382980e12c15c40d88d22da021d56b3e3ba5e41c635712eba7e8dc7052466             7531 main/binary-arm64/Packages
+ 6c02f6075cdb531578fc31d52ace0a8334ae3fdb99d03a6332d689f77012d662             1868 main/binary-arm64/Packages.gz
+SHA512:
+ fb5088ac3398a1b41a47b70dbf4d927436de0d0ffff0c79c879ecc1d8d9b4f68d4bbc1d73cc39b60f3e71deafb1b6472ce4823bf2b40dc957c4ae4a51498046c              199 Release
+ 3004376971e79d4ae55052bfb1f2490e2b9c96a4d076337881652a2a2be70ae57c076cbed6ed3060122bfd65543c55723f8a384fc5a6b15bdb967acd839d8b7d             7531 main/binary-arm64/Packages
+ bbb5396bd1ca079e88cbfe17afe2170263c507ad920b50ec98b805888e494c645afeaac1522af48b83e95fe85e55621c9328bb38454baa647ee67221bf9f03fe             1868 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE6PLye2mXdWqdN4DeYpBzGlt3PhYFAmgCM0YACgkQYpBzGlt3
+PhbncAwAktpMSvtrImclvR1sRxD6FZ3ZDvbtKDFMF58cIykUkx+lpdLSxdJiVrhE
+Nyp4KTTZReRB/gDg68Wnbp1V/DhkjF+M61fc0zH4y6UT93fpO3iPbrvmdDMcMIe3
+YYhBgeWgZYTCRWjMtbm6Kakf7m/ewv/Tkir6zABWPb/liEQ55cfMVafTDD1QH+9P
+YHFhMisnxOWCWao/gRwZpAbihN8aU2YSyQxDYoos6P9OryLr1M7yoK9j5/vIFQGc
+3i1Zz7Dsh3W6i+uWfOe4KL8PrXBJqEsNZvk08hkK6MYentwp1/KnxxujQDYFRsNZ
+5ViSfsp0+dvsIc0n8Wv+ewc1bSz1ebX6I9AgtO9w0bpfHDfzwGjFIBDXtLOZEaAh
+sIOU3Q4GcTwzhBeA5TnaIPQwnugeksGcWlgVHt9G3OPfhhKBDpY4yGcZgF1mtX17
+lXUjn2Im8uOy6WKtZR0SBWcvMxtlzp9kFdr5LkHrBoMYiweMEHbOmMKs1i9z6DkS
+gIVgxGhL
+=MSXQ
+-----END PGP SIGNATURE-----
